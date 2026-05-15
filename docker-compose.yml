@@ -1,7 +1,7 @@
 services:
   postgres_auth:
     image: postgres:15-alpine
-    container_name: auth_db
+    container_name: insureflow
     environment:
       POSTGRES_DB: auth_db
       POSTGRES_USER: user
