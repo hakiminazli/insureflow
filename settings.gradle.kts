@@ -10,3 +10,4 @@ rootProject.name = "insureflow"
 
 include("auth-service")
 include("member-service")
+include("policy-service")
